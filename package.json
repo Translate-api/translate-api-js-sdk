@@ -1,0 +1,39 @@
+{
+  "name": "@translate-api/client",
+  "version": "1.0.0",
+  "description": "Official JavaScript/TypeScript SDK for Translate API - Easy text translation",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"No tests yet\""
+  },
+  "keywords": [
+    "translate",
+    "translation",
+    "api",
+    "sdk",
+    "language",
+    "translate-api",
+    "i18n",
+    "localization"
+  ],
+  "author": "Translate API <support@translate-api.com>",
+  "license": "MIT",
+  "homepage": "https://translate-api.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Translate-api/translate-api-js-sdk"
+  },
+  "bugs": {
+    "url": "https://github.com/Translate-api/translate-api-js-sdk/issues"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "typescript": "^5.0.0"
+  },
+  "files": [
+    "dist"
+  ]
+}
